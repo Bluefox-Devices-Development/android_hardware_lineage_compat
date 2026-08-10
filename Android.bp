@@ -623,6 +623,7 @@ cc_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtinyxml2-v34",
+    ignore_max_page_size: true,
     vendor: true,
     strip: {
         none: true,
